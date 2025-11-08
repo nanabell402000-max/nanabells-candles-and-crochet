@@ -30,17 +30,17 @@ export default function App() {
 
   // ---- Products ----
   const candles = [
-    { id: "candle-apple-snickerdoodle", name: "Apple Cider & Snickerdoodle", price: "$16", priceNumber: 16, size: "8 oz soy blend", desc: "Warm cinnamon sugar with crisp apple cider.", badge: "Best Seller" },
-    { id: "candle-vanilla-cashmere", name: "Vanilla Cashmere", price: "$16", priceNumber: 16, size: "8 oz soy blend", desc: "Soft vanilla, amber, and a whisper of musk.", badge: "Cozy" },
-    { id: "candle-lemon-pound-cake", name: "Lemon Pound Cake", price: "$16", priceNumber: 16, size: "8 oz soy blend", desc: "Bright lemon zest over warm cake notes.", badge: "Fresh" },
-    { id: "candle-peppermint-mocha", name: "Peppermint Mocha (Seasonal)", price: "$18", priceNumber: 18, size: "10 oz soy blend", desc: "Peppermint, cocoa, and espresso cheer.", badge: "Holiday" },
+    { id: "Diva", name: "Apple Cider & Snickerdoodle", price: "$12", priceNumber: 12, size: "8 oz soy blend", desc: "Warm cinnamon sugar with crisp apple cider.", badge: "Best Seller" },
+    { id: "Sleigh Ride", name: "Grace", price: "$12", priceNumber: 12, size: "8 oz soy blend", desc: ,
+    { id: "Dior Sauvage", name: "Butt Naked", price: "$12", priceNumber: 12, size: "8 oz soy blend",, badge: "Fresh" },
+    { id: "Hawaiian Pink Hibiscus", name: "Baja Cactus Blossom", price: "$12", priceNumber: 12, size: "8 oz soy blend","Fruity Rings", "Tobacco Caramel", "Sweet Grace", "Japanese Cherry Blossom", "Fresh Brewed Coffee",
   ];
 
   const crochet = [
-    { id: "crochet-bucket-cloche", name: "Bucket Cloche Hat", price: "$28", priceNumber: 28, sizes: "Infant–Adult", desc: "Classic silhouette with optional embroidery." },
-    { id: "crochet-shell-tote", name: "Scalloped Shell Tote", price: "$42", priceNumber: 42, sizes: "One size", desc: "Roomy market tote with shell edge." },
-    { id: "crochet-sun-hat-bow", name: "Sun Hat with Bow", price: "$32", priceNumber: 32, sizes: "Toddler–Adult", desc: "Sweet scallop edge and ribbon bow." },
-    { id: "crochet-football-beanie", name: "Football Beanie", price: "$28", priceNumber: 28, sizes: "0–3 mo to Child", desc: "Team-spirited hat with optional earflaps." },
+    { id: "crochet-bucket-cloche", name: "Christmas Hat", price: "$15", priceNumber: 28, sizes: "Infant–Adult", desc: "Classic Christmas Hat with Pompons" },
+    { id: "crochet-shell-tote", name: "Cloche Hat", price: "$12", priceNumber: 12, sizes: "One size", desc: "Roomy market tote with shell edge." },
+    { id: "crochet-sun-hat-bow", name: "Sun Hat with Bow", price: "$12", priceNumber: 12, sizes: "Toddler–Adult", desc: "Sweet scallop edge and ribbon bow." },
+    { id: "crochet-football-beanie", name: "Football Beanie", price: "$12", priceNumber: 12, sizes: "0–3 mo to Child", desc: "Team-spirited hat with optional earflaps." },
   ];
 
   // ---- PayPal loader ----
